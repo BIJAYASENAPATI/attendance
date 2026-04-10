@@ -187,7 +187,7 @@ const DeleteCustomer = () => {
                         className="flex-1 px-6 py-3.5 bg-gradient-to-r from-red-500 to-red-600 text-white rounded-xl text-sm font-bold hover:from-red-600 hover:to-red-700 disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center gap-2 shadow-lg shadow-red-200 hover:shadow-xl active:scale-98 transition-all">
                         {isDeleting
                             ? <><Loader2 size={16} className="animate-spin" /> Deleting Customer…</>
-                            : <><Trash2 size={16} /> Delete Permanently</>}
+                            : <><Trash2 size={16} /> Deletec Permanently</>}
                     </button>
                 </div>
             </div>
